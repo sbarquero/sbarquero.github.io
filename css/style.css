@@ -154,8 +154,16 @@ body {
   background-color: #CFD8DC;
 }
 
-/*
 .table-striped > tbody > tr > td > a {
-  color: #ffffff;
+  color: #455a64;
+  text-decoration: none;
 }
-*/
+
+.table-striped > tbody > tr > td > a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+#foto {
+  margin: 10px 30px;
+}

@@ -142,7 +142,7 @@ body {
 }
 
 .enlace:hover {
-  color: #99ccff;
+  color: #CFD8DC;
   text-decoration: none;
 }
 
@@ -166,4 +166,8 @@ body {
 
 #foto {
   margin: 10px 30px;
+}
+
+.marco:hover {
+  width: 27px;
 }

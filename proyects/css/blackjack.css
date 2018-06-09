@@ -1,0 +1,124 @@
+* { 
+  max-width: 412px; 
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+body {
+  background-color: darkgreen;
+  font-family: sans-serif;
+  color: white;
+  margin: 0;
+}
+
+div#marco_exterior {
+  position: relative;
+  height: 650px;
+}
+
+header {
+  height: 3em;
+  background-color: #58290a;
+  padding-bottom: 5px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.rojo { color: red; }
+
+.negro { color: black; }
+
+h1 { 
+  font-family: 'Rye', cursive;
+  margin: 0;
+}
+
+h1 > .rojo , h1 > .negro {
+  font-size: 1.3em;
+}
+
+h3 {
+  letter-spacing: 0.4em;
+  text-align: center;
+  margin: 5px 0px;
+  padding: 5px;
+}
+
+#pie {
+  font-weight: bold;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  padding-top: 10px;
+  height: 20px;
+  color: #70b270;
+}
+
+section#crupier {
+  height: 190px;
+}
+
+section#informacion {
+  background-color: red;
+  font-weight: bold;
+  padding: 0.5em;
+  font-size: 1.05em;
+  border-radius: 10px;
+}
+
+section#jugador {
+  height: 190px;
+}
+
+div#mensaje {
+  width: 100%;
+  position: absolute;
+  background-color: yellow;
+  color:green;
+  bottom: 120px;
+  font-size: 1.3em;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+
+div#puntuacion {
+  width: 100%;
+  position: absolute;
+  bottom: 90px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+div#botones {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  width: 32%;
+  font-size: 1.2em;  
+  border-radius: 15px;
+  color: #d3e8d3;
+  background-color: #3d563d;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:disabled {
+  opacity: 0.4;
+}
+
+div.carta {
+  background-color: white;
+  height: 120px;
+  width: 80px;
+  padding: 5px;
+  border-radius: 7px;
+  font-size: 1.6em;
+  text-align: left;
+  border: 1px solid darkgray;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+}

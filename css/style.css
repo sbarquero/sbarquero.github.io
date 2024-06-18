@@ -1,7 +1,7 @@
 /* Space out content a bit */
 
 p {
-  font: 16px Montserrat, sans-serif; 
+  font: 16px Montserrat, sans-serif;
   line-height: 1.8;
 }
 
@@ -165,8 +165,4 @@ body {
 
 #foto {
   margin: 10px 30px;
-}
-
-.marco:hover {
-  width: 27px;
 }

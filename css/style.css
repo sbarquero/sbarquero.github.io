@@ -17,7 +17,7 @@ body {
 
 .container {
   max-width: 730px;
-  min-width: 450px;
+  min-width: 400px;
 }
 
 header,
@@ -90,6 +90,12 @@ a.social-link {
 }
 
 @media screen and (max-width: 515px) {
+  body {
+    font-size: 1.3rem;
+    line-height: 2.6rem;
+
+  }
+
   header > h1 .img-circle {
     width: 120px;
     height: 120px;
